@@ -1,0 +1,49 @@
+.title {
+  background-color: burlywood;
+  color: rgb(0, 39, 0);
+  padding: 20px;
+  margin: 50px;
+  text-align: center;
+}
+
+#recipe-list {
+  background-color: aliceblue;
+  padding: 100px;
+  margin: 0 480px 0 50px;
+  font-size: 20px;
+}
+
+#recipe-list li {
+  padding: 12px;
+  font-family: cursive;
+}
+
+img {
+  height: auto;
+  width: 128px;
+  border: 4px solid black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  padding: 4px;
+}
+
+.content {
+  margin: auto 128px;
+  font-family: monospace;
+}
+
+.content > * > * {
+  font-size: 16px;
+}
+
+.content > * {
+  font-size: 24px;
+}
+
+.description {
+  font-size: 16px;
+}
